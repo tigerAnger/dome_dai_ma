@@ -39,7 +39,7 @@ public class SayController {
     }
 
     @ResponseBody
-    @RequestMapping("/updatePassword")
+    @RequestMapping(value = "/updatePassword",method = RequestMethod.POST)
     @ApiOperation(value="修改用户密码", notes="根据用户id修改密码")
     @ApiImplicitParams({
             @ApiImplicitParam(paramType="query", name = "userId", value = "用户ID", required = true, dataType = "Integer"),
