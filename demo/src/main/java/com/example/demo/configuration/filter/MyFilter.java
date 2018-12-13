@@ -28,7 +28,9 @@ public class MyFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         /**
          * 需要的过滤操作
+         * 上面写/*拦截全部 ,所以这儿必须放行 懂 OK
          */
+        filterChain.doFilter(servletRequest,servletResponse);
     }
 
     @Override
