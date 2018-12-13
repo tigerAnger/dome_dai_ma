@@ -1,0 +1,13 @@
+##端口
+#server.port: 8083
+##项目访问地址配置
+#server:
+#  servlet:
+#    context-path: /dome
+#数据库连接
+#spring:
+#  datasource:
+#    data-username: root
+#    data-password: 123.aa
+#    url: jdbc:mysql://127.0.0.1:3306/shiro_demo?useUnicode=true&characterEncoding=UTF-8
+#    name: com.mysql.jdbc.Driver
