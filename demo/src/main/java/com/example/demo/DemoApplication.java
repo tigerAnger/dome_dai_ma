@@ -1,10 +1,7 @@
 package com.example.demo;
 
-import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 启动类中加入@EnableScheduling来开启定时任务

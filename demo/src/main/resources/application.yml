@@ -1,9 +1,9 @@
-##端口
-#server.port: 8083
-##项目访问地址配置
-#server:
-#  servlet:
-#    context-path: /dome
+#端口
+server.port: 8083
+#项目访问地址配置
+server:
+  servlet:
+    context-path: /dome
 #数据库连接
 #spring:
 #  datasource:
