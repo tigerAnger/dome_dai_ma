@@ -10,7 +10,8 @@ public class TextController {
 
     @RequestMapping("/sadsad")
     @ResponseBody
-    public void text(){
+    public String text(){
         System.err.println("到了,这里");
+        return "成功了";
     }
 }
